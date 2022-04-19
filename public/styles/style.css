@@ -19,11 +19,8 @@ head {
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  position: relative;
+  text-align: center;
   background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -64,4 +61,16 @@ head {
 
 .Killer > p {
   max-width: 60%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem;
+}
+
+.alert {
+  color: red;
 }
